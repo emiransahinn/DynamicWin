@@ -140,7 +140,7 @@ namespace DynamicWin.UI.Menu.Menus
             objects.Add(next);
             objects.Add(previous);
 
-            widgetButton = new DWTextImageButton(topContainer, Resources.Res.Widgets, "Widgets", new Vec2(75 / 2 + 5, 0), new Vec2(75, 20), () =>
+            widgetButton = new DWTextImageButton(topContainer, Resources.Res.Widgets, "denemme", new Vec2(75 / 2 + 5, 0), new Vec2(75, 20), () =>
             {
                 isWidgetMode = true;
             },
